@@ -6,7 +6,7 @@ authors = ["Faith Olusegun <propenster@proton.me>"]
 repository = "https://github.com/propenster/sluggify-rs"
 documentation = "https://docs.rs/sluggify"
 description = "Simple slug or clean url generator for rust. With default settings, you will get an hyphenized, lowercase, alphanumeric version of any string you please, with any diacritics removed, whitespace and dashes collapsed, and whitespace trimmed."
-keywords = ["slug", "slug generator", "sluggify", "slug helper", "url cleaner"]
+keywords = ["slug", "generator", "sluggify", "slug helper", "url cleaner"]
 categories = ["strings", "slug", "string utils", "url cleaner"]
 license = "MIT"
 
