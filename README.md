@@ -9,6 +9,54 @@ to get to it as quickly as possible.
 
 Please see the [API documentation](https://docs.rs/sluggify) for available features and examples of how to use them.
 
+ # Getting started
+
+ We explain how to use sluggify step-by-step.
+ Users who already have experience with Rust can skip right to [Step 3: Use sluggify in your project](https://docs.rs/sluggify/#step-3-use-sluggify-in-your-project).
+ Users who already know `sluggify` might want to jump right into the [modules docs](https://docs.rs/sluggify/#modules)
+
+ ## Step 1: Setting up Rust
+
+ Rust can be installed following the instruction for [rustup](https://rustup.rs/).
+
+
+ ## Step 2: Setting up a new Rust project
+
+ Since sluggify is a library, you need to setup your own new Rust project to use sluggify.
+ With Rust, projects and their dependencies are managed with the builtin package manager [Cargo](https://doc.rust-lang.org/cargo/index.html).
+ To create a new Rust project, issue
+
+ ```bash
+ cargo new hello_world --bin
+ cd hello_world
+ ```
+ in your terminal. The flag `--bin` tells Cargo to create an executable project instead of a library.
+ In [this section](https://doc.rust-lang.org/nightly/book/hello-cargo.html#a-new-project) of the Rust docs, you find details about what Cargo just created for you.
+
+ Your new project can be compiled with
+ ```bash
+ cargo build
+ ```
+ If dependencies in your project are out of date, update with
+ ```bash
+ cargo update
+ ```
+ Execute the compiled code with
+ ```bash
+ cargo run
+ ```
+ If you are new to Rust, we suggest to proceed with [learning Rust](https://www.rust-lang.org/learn) via the Rust docs.
+
+ ## Step 3: Use sluggify in your project
+
+ To use sluggify in your Rust project, add the following to your `Cargo.toml`
+
+ ```toml
+ [dependencies]
+ sluggify = "0.1.0"
+ ```
+
+
 ## Quick Start
 
 ```rust
